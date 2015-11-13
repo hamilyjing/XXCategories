@@ -13,6 +13,7 @@
 		AD779F2D1BF6409200DFF972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD779F2C1BF6409200DFF972 /* Assets.xcassets */; };
 		AD779F301BF6409200DFF972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD779F2E1BF6409200DFF972 /* LaunchScreen.storyboard */; };
 		AD779F3B1BF6409200DFF972 /* XXCategoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD779F3A1BF6409200DFF972 /* XXCategoriesTests.swift */; };
+		AD779F461BF641BD00DFF972 /* UIControl+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD779F451BF641BD00DFF972 /* UIControl+Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AD779F361BF6409200DFF972 /* XXCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD779F3A1BF6409200DFF972 /* XXCategoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXCategoriesTests.swift; sourceTree = "<group>"; };
 		AD779F3C1BF6409200DFF972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD779F451BF641BD00DFF972 /* UIControl+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIControl+Block.swift"; path = "UIKit/UIControl+Block.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				AD779F251BF6409200DFF972 /* AppDelegate.swift */,
 				AD779F271BF6409200DFF972 /* ViewController.swift */,
+				AD779F471BF641C100DFF972 /* UIKit */,
 				AD779F291BF6409200DFF972 /* Main.storyboard */,
 				AD779F2C1BF6409200DFF972 /* Assets.xcassets */,
 				AD779F2E1BF6409200DFF972 /* LaunchScreen.storyboard */,
@@ -94,6 +97,14 @@
 				AD779F3C1BF6409200DFF972 /* Info.plist */,
 			);
 			path = XXCategoriesTests;
+			sourceTree = "<group>";
+		};
+		AD779F471BF641C100DFF972 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AD779F451BF641BD00DFF972 /* UIControl+Block.swift */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD779F461BF641BD00DFF972 /* UIControl+Block.swift in Sources */,
 				AD779F281BF6409200DFF972 /* ViewController.swift in Sources */,
 				AD779F261BF6409200DFF972 /* AppDelegate.swift in Sources */,
 			);
